@@ -1,0 +1,41 @@
+{
+	"name": "ASAL400 - Lab 2 - Write Campaign Analytics to ASA",
+	"properties": {
+		"activities": [
+			{
+				"name": "campaign_analytics_data",
+				"type": "ExecuteDataFlow",
+				"dependsOn": [],
+				"policy": {
+					"timeout": "7.00:00:00",
+					"retry": 0,
+					"retryIntervalInSeconds": 30,
+					"secureOutput": false,
+					"secureInput": false
+				},
+				"userProperties": [],
+				"typeProperties": {
+					"dataflow": {
+						"referenceName": "asal400_lab2_writecampaignanalyticstoasa",
+						"type": "DataFlowReference"
+					},
+					"staging": {
+						"linkedService": {
+							"referenceName": "asaworkspace335189-WorkspaceDefaultStorage",
+							"type": "LinkedServiceReference"
+						},
+						"folderPath": "tempdata/dataflow"
+					},
+					"compute": {
+						"coreCount": 32,
+						"computeType": "ComputeOptimized"
+					},
+					"traceLevel": "Fine"
+				}
+			}
+		],
+		"annotations": [],
+		"lastPublishTime": "2021-03-23T21:03:12Z"
+	},
+	"type": "Microsoft.Synapse/workspaces/pipelines"
+}

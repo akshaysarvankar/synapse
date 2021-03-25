@@ -1,0 +1,499 @@
+{
+	"name": "Notebook 1",
+	"properties": {
+		"nbformat": 4,
+		"nbformat_minor": 2,
+		"bigDataPool": {
+			"referenceName": "SparkPool01",
+			"type": "BigDataPoolReference"
+		},
+		"sessionProperties": {
+			"driverMemory": "28g",
+			"driverCores": 4,
+			"executorMemory": "28g",
+			"executorCores": 4,
+			"numExecutors": 2,
+			"conf": {
+				"spark.dynamicAllocation.enabled": "false",
+				"spark.dynamicAllocation.minExecutors": "2",
+				"spark.dynamicAllocation.maxExecutors": "2"
+			}
+		},
+		"metadata": {
+			"saveOutput": true,
+			"synapse_widget": {
+				"version": "0.1",
+				"state": {
+					"0e47dda9-2753-445b-9bf4-c8f0df65cde9": {
+						"type": "Synapse.DataFrame",
+						"sync_state": {
+							"table": {
+								"rows": [
+									{
+										"Quantity": 4,
+										"ProductId": 3208,
+										"CustomerId": 3,
+										"TotalAmount": 135.44,
+										"ProfitAmount": 43.2,
+										"Price": 33.86,
+										"StoreId": 7374,
+										"TransactionId": "bebd0650-b54f-43c4-bf18-f96fcc16fcf5",
+										"TransactionDate": 20161231,
+										"Hour": 6,
+										"Minute": 35
+									},
+									{
+										"Quantity": 4,
+										"ProductId": 1820,
+										"CustomerId": 3,
+										"TotalAmount": 114.6,
+										"ProfitAmount": 35.68,
+										"Price": 28.65,
+										"StoreId": 7374,
+										"TransactionId": "bebd0650-b54f-43c4-bf18-f96fcc16fcf5",
+										"TransactionDate": 20161231,
+										"Hour": 6,
+										"Minute": 35
+									},
+									{
+										"Quantity": 2,
+										"ProductId": 3372,
+										"CustomerId": 3,
+										"TotalAmount": 46.08,
+										"ProfitAmount": 13.06,
+										"Price": 23.04,
+										"StoreId": 7374,
+										"TransactionId": "bebd0650-b54f-43c4-bf18-f96fcc16fcf5",
+										"TransactionDate": 20161231,
+										"Hour": 6,
+										"Minute": 35
+									},
+									{
+										"Quantity": 3,
+										"ProductId": 1373,
+										"CustomerId": 3,
+										"TotalAmount": 103.95,
+										"ProfitAmount": 31.02,
+										"Price": 34.65,
+										"StoreId": 7374,
+										"TransactionId": "bebd0650-b54f-43c4-bf18-f96fcc16fcf5",
+										"TransactionDate": 20161231,
+										"Hour": 6,
+										"Minute": 35
+									},
+									{
+										"Quantity": 1,
+										"ProductId": 2760,
+										"CustomerId": 3,
+										"TotalAmount": 36.13,
+										"ProfitAmount": 7.25,
+										"Price": 36.13,
+										"StoreId": 7374,
+										"TransactionId": "bebd0650-b54f-43c4-bf18-f96fcc16fcf5",
+										"TransactionDate": 20161231,
+										"Hour": 6,
+										"Minute": 35
+									},
+									{
+										"Quantity": 4,
+										"ProductId": 2253,
+										"CustomerId": 3,
+										"TotalAmount": 107.2,
+										"ProfitAmount": 28,
+										"Price": 26.8,
+										"StoreId": 7374,
+										"TransactionId": "bebd0650-b54f-43c4-bf18-f96fcc16fcf5",
+										"TransactionDate": 20161231,
+										"Hour": 6,
+										"Minute": 35
+									},
+									{
+										"Quantity": 4,
+										"ProductId": 3498,
+										"CustomerId": 3,
+										"TotalAmount": 100.32,
+										"ProfitAmount": 28.68,
+										"Price": 25.08,
+										"StoreId": 7374,
+										"TransactionId": "bebd0650-b54f-43c4-bf18-f96fcc16fcf5",
+										"TransactionDate": 20161231,
+										"Hour": 6,
+										"Minute": 35
+									},
+									{
+										"Quantity": 3,
+										"ProductId": 2358,
+										"CustomerId": 3,
+										"TotalAmount": 69.87,
+										"ProfitAmount": 24.93,
+										"Price": 23.29,
+										"StoreId": 7374,
+										"TransactionId": "bebd0650-b54f-43c4-bf18-f96fcc16fcf5",
+										"TransactionDate": 20161231,
+										"Hour": 6,
+										"Minute": 35
+									},
+									{
+										"Quantity": 4,
+										"ProductId": 198,
+										"CustomerId": 3,
+										"TotalAmount": 123.28,
+										"ProfitAmount": 41.8,
+										"Price": 30.82,
+										"StoreId": 7374,
+										"TransactionId": "bebd0650-b54f-43c4-bf18-f96fcc16fcf5",
+										"TransactionDate": 20161231,
+										"Hour": 6,
+										"Minute": 35
+									},
+									{
+										"Quantity": 1,
+										"ProductId": 190,
+										"CustomerId": 3,
+										"TotalAmount": 24.65,
+										"ProfitAmount": 6.7,
+										"Price": 24.65,
+										"StoreId": 7374,
+										"TransactionId": "bebd0650-b54f-43c4-bf18-f96fcc16fcf5",
+										"TransactionDate": 20161231,
+										"Hour": 6,
+										"Minute": 35
+									}
+								],
+								"schema": {
+									"TransactionId": "string",
+									"CustomerId": "int",
+									"ProductId": "smallint",
+									"Quantity": "tinyint",
+									"Price": "decimal",
+									"TotalAmount": "decimal",
+									"TransactionDate": "int",
+									"ProfitAmount": "decimal",
+									"Hour": "tinyint",
+									"Minute": "tinyint",
+									"StoreId": "smallint"
+								}
+							},
+							"isSummary": false,
+							"language": "scala"
+						},
+						"persist_state": {
+							"view": {
+								"type": "details",
+								"chartOptions": {
+									"chartType": "bar",
+									"aggregationType": "sum",
+									"categoryFieldKeys": [
+										"TransactionId"
+									],
+									"seriesFieldKeys": [
+										"CustomerId"
+									],
+									"isStacked": false
+								}
+							}
+						}
+					}
+				}
+			},
+			"kernelspec": {
+				"name": "synapse_pyspark",
+				"display_name": "Synapse PySpark"
+			},
+			"language_info": {
+				"name": "python"
+			},
+			"a365ComputeOptions": {
+				"id": "/subscriptions/e0450892-2ab3-4036-8808-7ceb60b8e8ba/resourceGroups/Synapse-WS-L400-335189/providers/Microsoft.Synapse/workspaces/asaworkspace335189/bigDataPools/SparkPool01",
+				"name": "SparkPool01",
+				"type": "Spark",
+				"endpoint": "https://asaworkspace335189.dev.azuresynapse.net/livyApi/versions/2019-11-01-preview/sparkPools/SparkPool01",
+				"auth": {
+					"type": "AAD",
+					"authResource": "https://dev.azuresynapse.net"
+				},
+				"sparkVersion": "2.4",
+				"nodeCount": 3,
+				"cores": 4,
+				"memory": 28,
+				"extraHeader": null
+			}
+		},
+		"cells": [
+			{
+				"cell_type": "code",
+				"metadata": {
+					"microsoft": {
+						"language": "python"
+					},
+					"collapsed": false
+				},
+				"source": [
+					"%%pyspark\r\n",
+					"df = spark.read.load('abfss://wwi-02@asadatalake335189.dfs.core.windows.net/sale-small/Year=2016/Quarter=Q4/Month=12/Day=20161231/sale-small-20161231-snappy.parquet', format='parquet')\r\n",
+					"display(df.limit(10))"
+				],
+				"attachments": null,
+				"execution_count": 1
+			},
+			{
+				"cell_type": "code",
+				"metadata": {
+					"jupyter": {
+						"source_hidden": false,
+						"outputs_hidden": false
+					},
+					"nteract": {
+						"transient": {
+							"deleting": false
+						}
+					},
+					"collapsed": true
+				},
+				"source": [
+					"df.printSchema()"
+				],
+				"attachments": null,
+				"execution_count": 2
+			},
+			{
+				"cell_type": "code",
+				"metadata": {
+					"jupyter": {
+						"source_hidden": false,
+						"outputs_hidden": false
+					},
+					"nteract": {
+						"transient": {
+							"deleting": false
+						}
+					},
+					"collapsed": true
+				},
+				"source": [
+					"from pyspark.sql import SparkSession\r\n",
+					"from pyspark.sql.types import *\r\n",
+					"from pyspark.sql.functions import *\r\n",
+					"\r\n",
+					"profitByDateProduct = (df.groupBy(\"TransactionDate\",\"ProductId\")\r\n",
+					"    .agg(\r\n",
+					"        sum(\"ProfitAmount\").alias(\"(sum)ProfitAmount\"),\r\n",
+					"        round(avg(\"Quantity\"), 4).alias(\"(avg)Quantity\"),\r\n",
+					"        sum(\"Quantity\").alias(\"(sum)Quantity\"))\r\n",
+					"    .orderBy(\"TransactionDate\"))\r\n",
+					"profitByDateProduct.show(100)"
+				],
+				"attachments": null,
+				"execution_count": 3
+			},
+			{
+				"cell_type": "code",
+				"metadata": {
+					"jupyter": {
+						"source_hidden": false,
+						"outputs_hidden": false
+					},
+					"nteract": {
+						"transient": {
+							"deleting": false
+						}
+					},
+					"collapsed": true
+				},
+				"source": [
+					"df = (spark.read \\\r\n",
+					"        .option(\"inferSchema\", \"true\") \\\r\n",
+					"        .json(\"abfss://wwi-02@asadatalake335189.dfs.core.windows.net/online-user-profiles-02/*.json\", multiLine=True)\r\n",
+					"    )\r\n",
+					"\r\n",
+					"df.printSchema()"
+				],
+				"attachments": null,
+				"execution_count": 5
+			},
+			{
+				"cell_type": "code",
+				"metadata": {
+					"jupyter": {
+						"source_hidden": false,
+						"outputs_hidden": false
+					},
+					"nteract": {
+						"transient": {
+							"deleting": false
+						}
+					},
+					"collapsed": true
+				},
+				"source": [
+					"# create a view called user_profiles\r\n",
+					"df.createOrReplaceTempView(\"user_profiles\")"
+				],
+				"attachments": null,
+				"execution_count": 6
+			},
+			{
+				"cell_type": "code",
+				"metadata": {
+					"jupyter": {
+						"source_hidden": false,
+						"outputs_hidden": false
+					},
+					"nteract": {
+						"transient": {
+							"deleting": false
+						}
+					},
+					"microsoft": {
+						"language": "sparksql"
+					},
+					"collapsed": false
+				},
+				"source": [
+					"%%sql\r\n",
+					"\r\n",
+					"SELECT * FROM user_profiles LIMIT 10"
+				],
+				"attachments": null,
+				"execution_count": 7
+			},
+			{
+				"cell_type": "code",
+				"metadata": {
+					"jupyter": {
+						"source_hidden": false,
+						"outputs_hidden": false
+					},
+					"nteract": {
+						"transient": {
+							"deleting": false
+						}
+					},
+					"collapsed": true
+				},
+				"source": [
+					"from pyspark.sql.functions import udf, explode\r\n",
+					"\r\n",
+					"flat=df.select('visitorId',explode('topProductPurchases').alias('topProductPurchases_flat'))\r\n",
+					"flat.show(100)"
+				],
+				"attachments": null,
+				"execution_count": 8
+			},
+			{
+				"cell_type": "code",
+				"metadata": {
+					"jupyter": {
+						"source_hidden": false,
+						"outputs_hidden": false
+					},
+					"nteract": {
+						"transient": {
+							"deleting": false
+						}
+					},
+					"collapsed": true
+				},
+				"source": [
+					"topPurchases = (flat.select('visitorId','topProductPurchases_flat.productId','topProductPurchases_flat.itemsPurchasedLast12Months')\r\n",
+					"    .orderBy('visitorId'))\r\n",
+					"\r\n",
+					"topPurchases.show(100)"
+				],
+				"attachments": null,
+				"execution_count": 9
+			},
+			{
+				"cell_type": "code",
+				"metadata": {
+					"jupyter": {
+						"source_hidden": false,
+						"outputs_hidden": false
+					},
+					"nteract": {
+						"transient": {
+							"deleting": false
+						}
+					},
+					"collapsed": true
+				},
+				"source": [
+					"# Let's order by the number of items purchased in the last 12 months\r\n",
+					"sortedTopPurchases = topPurchases.orderBy(\"itemsPurchasedLast12Months\")\r\n",
+					"\r\n",
+					"sortedTopPurchases.show(100)"
+				],
+				"attachments": null,
+				"execution_count": 10
+			},
+			{
+				"cell_type": "code",
+				"metadata": {
+					"jupyter": {
+						"source_hidden": false,
+						"outputs_hidden": false
+					},
+					"nteract": {
+						"transient": {
+							"deleting": false
+						}
+					},
+					"collapsed": true
+				},
+				"source": [
+					"topPurchases.orderBy(\"itemsPurchasedLast12Months desc\")"
+				],
+				"attachments": null,
+				"execution_count": 11
+			},
+			{
+				"cell_type": "code",
+				"metadata": {
+					"jupyter": {
+						"source_hidden": false,
+						"outputs_hidden": false
+					},
+					"nteract": {
+						"transient": {
+							"deleting": false
+						}
+					},
+					"collapsed": true
+				},
+				"source": [
+					"sortedTopPurchases = (topPurchases\r\n",
+					"    .orderBy( col(\"itemsPurchasedLast12Months\").desc() ))\r\n",
+					"\r\n",
+					"sortedTopPurchases.show(100)"
+				],
+				"attachments": null,
+				"execution_count": 12
+			},
+			{
+				"cell_type": "code",
+				"metadata": {
+					"jupyter": {
+						"source_hidden": false,
+						"outputs_hidden": false
+					},
+					"nteract": {
+						"transient": {
+							"deleting": false
+						}
+					},
+					"collapsed": true
+				},
+				"source": [
+					"groupedTopPurchases = (sortedTopPurchases.select(\"visitorId\")\r\n",
+					"    .groupBy(\"visitorId\")\r\n",
+					"    .agg(count(\"*\").alias(\"total\"))\r\n",
+					"    .orderBy(\"visitorId\") )\r\n",
+					"\r\n",
+					"groupedTopPurchases.show(100)"
+				],
+				"attachments": null,
+				"execution_count": 13
+			}
+		]
+	}
+}
